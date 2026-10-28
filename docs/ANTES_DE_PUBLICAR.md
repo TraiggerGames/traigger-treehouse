@@ -33,4 +33,4 @@ Lista de lo que queda por decidir o hacer antes de que el repositorio sea públi
 
 ## Pendiente de confirmar
 
-- [ ] **Piel 3D SkyPaw** (`Assets/Traigger/Resources/Skins3D/SkyPaw`): generada con Meshy. Con el plan gratuito de Meshy los modelos son CC BY 4.0 (hay que atribuir a Meshy); con un plan de pago son tuyos. Confirmar antes de publicar.
+- [x] **Piel 3D SkyPaw**: generada con un plan de pago de Meshy (el modelo es del autor); se menciona Meshy en `LICENSE-ART.md`.

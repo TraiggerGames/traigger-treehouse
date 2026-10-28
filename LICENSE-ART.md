@@ -13,3 +13,7 @@
 
 Para crear tu propio VTuber, parte de la plantilla libre [`Examples/Plantilla`](Examples/Plantilla) (CC0) y de la guía
 [docs/PAQUETES_DE_PERSONAJE.md](docs/PAQUETES_DE_PERSONAJE.md).
+
+La piel 3D (`Assets/Traigger/Resources/Skins3D/SkyPaw`) se generó con [Meshy](https://www.meshy.ai) con un plan de pago
+(los modelos pertenecen a quien los genera) y después se reparó, se rigó y se le añadieron expresiones en Blender
+(`Tools/Skins3D`). Se aplica la misma reserva de derechos.
