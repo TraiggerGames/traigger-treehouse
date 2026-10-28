@@ -1,0 +1,438 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &-6888682536033100524
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: EarRight_celShaded
+  m_Shader: {fileID: 4800000, guid: 133b732567966fa9c557e1e3bf7acbe5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _HeadShadeTex:
+        m_Texture: {fileID: 2800000, guid: 17ccbc927143f4d5b819403d11212ee1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: cbcf4622ae9b46f191c7550691712abb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _HeadShadeStrength: 0
+    - _HemSplit: 0
+    - _JoinMode: 0
+    - _JoinStrength: 0
+    - _SeamOverlay: 0
+    - _SleeveSplit: 0
+    - _VertexAlpha: 0
+    - _Volume: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _JoinRect: {r: 0, g: 0, b: 1, a: 1}
+    - _LayerRect: {r: 0, g: 0, b: 1, a: 1}
+    - _SeamBand: {r: 0.16, g: 0.26, b: 0.08, a: 0.36}
+    - _SeamRect: {r: 0, g: 0, b: 1, a: 1}
+    - _SleeveDarkLimit: {r: 0.14, g: 0.26, b: 0.42, a: 0}
+    - _SleeveOpening: {r: 0, g: 0, b: 1, a: 0}
+    - _SleeveRadii: {r: 115, g: 26, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!21 &-1218319817464879239
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FrontHair_celShaded
+  m_Shader: {fileID: 4800000, guid: 133b732567966fa9c557e1e3bf7acbe5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _HeadShadeTex:
+        m_Texture: {fileID: 2800000, guid: 17ccbc927143f4d5b819403d11212ee1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 7b26f66a1fb74b93b19cf3d57593a755, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _HeadShadeStrength: 0
+    - _HemSplit: 0
+    - _JoinMode: 0
+    - _JoinStrength: 0
+    - _SeamOverlay: 0
+    - _SleeveSplit: 0
+    - _VertexAlpha: 0
+    - _Volume: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _JoinRect: {r: 0, g: 0, b: 1, a: 1}
+    - _LayerRect: {r: 0, g: 0, b: 1, a: 1}
+    - _SeamBand: {r: 0.16, g: 0.26, b: 0.08, a: 0.36}
+    - _SeamRect: {r: 0, g: 0, b: 1, a: 1}
+    - _SleeveDarkLimit: {r: 0.14, g: 0.26, b: 0.42, a: 0}
+    - _SleeveOpening: {r: 0, g: 0, b: 1, a: 0}
+    - _SleeveRadii: {r: 115, g: 26, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b30fded5155ed2c90004bcb159209a72, type: 3}
+  m_Name: HeadShadingMaterials 3
+  m_EditorClassIdentifier: Assembly-CSharp::Traigger.RigDefinition
+  layerShader: {fileID: 0}
+  bones: []
+  layers: []
+--- !u!21 &745965484739843735
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CheekRight_celShaded
+  m_Shader: {fileID: 4800000, guid: 133b732567966fa9c557e1e3bf7acbe5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _HeadShadeTex:
+        m_Texture: {fileID: 2800000, guid: 17ccbc927143f4d5b819403d11212ee1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: cbcf4622ae9b46f191c7550691712abb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _HeadShadeStrength: 0
+    - _HemSplit: 0
+    - _JoinMode: 0
+    - _JoinStrength: 0
+    - _SeamOverlay: 0
+    - _SleeveSplit: 0
+    - _VertexAlpha: 0
+    - _Volume: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _JoinRect: {r: 0, g: 0, b: 1, a: 1}
+    - _LayerRect: {r: 0, g: 0, b: 1, a: 1}
+    - _SeamBand: {r: 0.16, g: 0.26, b: 0.08, a: 0.36}
+    - _SeamRect: {r: 0, g: 0, b: 1, a: 1}
+    - _SleeveDarkLimit: {r: 0.14, g: 0.26, b: 0.42, a: 0}
+    - _SleeveOpening: {r: 0, g: 0, b: 1, a: 0}
+    - _SleeveRadii: {r: 115, g: 26, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!21 &1267483130128339480
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CheekLeft_celShaded
+  m_Shader: {fileID: 4800000, guid: 133b732567966fa9c557e1e3bf7acbe5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _HeadShadeTex:
+        m_Texture: {fileID: 2800000, guid: 17ccbc927143f4d5b819403d11212ee1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: cbcf4622ae9b46f191c7550691712abb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _HeadShadeStrength: 0
+    - _HemSplit: 0
+    - _JoinMode: 0
+    - _JoinStrength: 0
+    - _SeamOverlay: 0
+    - _SleeveSplit: 0
+    - _VertexAlpha: 0
+    - _Volume: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _JoinRect: {r: 0, g: 0, b: 1, a: 1}
+    - _LayerRect: {r: 0, g: 0, b: 1, a: 1}
+    - _SeamBand: {r: 0.16, g: 0.26, b: 0.08, a: 0.36}
+    - _SeamRect: {r: 0, g: 0, b: 1, a: 1}
+    - _SleeveDarkLimit: {r: 0.14, g: 0.26, b: 0.42, a: 0}
+    - _SleeveOpening: {r: 0, g: 0, b: 1, a: 0}
+    - _SleeveRadii: {r: 115, g: 26, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!21 &4167981977151980658
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: EarLeft_celShaded
+  m_Shader: {fileID: 4800000, guid: 133b732567966fa9c557e1e3bf7acbe5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _HeadShadeTex:
+        m_Texture: {fileID: 2800000, guid: 17ccbc927143f4d5b819403d11212ee1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: cbcf4622ae9b46f191c7550691712abb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _HeadShadeStrength: 0
+    - _HemSplit: 0
+    - _JoinMode: 0
+    - _JoinStrength: 0
+    - _SeamOverlay: 0
+    - _SleeveSplit: 0
+    - _VertexAlpha: 0
+    - _Volume: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _JoinRect: {r: 0, g: 0, b: 1, a: 1}
+    - _LayerRect: {r: 0, g: 0, b: 1, a: 1}
+    - _SeamBand: {r: 0.16, g: 0.26, b: 0.08, a: 0.36}
+    - _SeamRect: {r: 0, g: 0, b: 1, a: 1}
+    - _SleeveDarkLimit: {r: 0.14, g: 0.26, b: 0.42, a: 0}
+    - _SleeveOpening: {r: 0, g: 0, b: 1, a: 0}
+    - _SleeveRadii: {r: 115, g: 26, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!21 &4708873233336597939
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HeadBase_celShaded
+  m_Shader: {fileID: 4800000, guid: 133b732567966fa9c557e1e3bf7acbe5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _HeadShadeTex:
+        m_Texture: {fileID: 2800000, guid: 17ccbc927143f4d5b819403d11212ee1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: cbcf4622ae9b46f191c7550691712abb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _HeadShadeStrength: 0
+    - _HemSplit: 0
+    - _JoinMode: 0
+    - _JoinStrength: 0
+    - _SeamOverlay: 0
+    - _SleeveSplit: 0
+    - _VertexAlpha: 0
+    - _Volume: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _JoinRect: {r: 0, g: 0, b: 1, a: 1}
+    - _LayerRect: {r: 0, g: 0, b: 1, a: 1}
+    - _SeamBand: {r: 0.16, g: 0.26, b: 0.08, a: 0.36}
+    - _SeamRect: {r: 0, g: 0, b: 1, a: 1}
+    - _SleeveDarkLimit: {r: 0.14, g: 0.26, b: 0.42, a: 0}
+    - _SleeveOpening: {r: 0, g: 0, b: 1, a: 0}
+    - _SleeveRadii: {r: 115, g: 26, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!21 &6995816942535442866
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BackHair_celShaded
+  m_Shader: {fileID: 4800000, guid: 133b732567966fa9c557e1e3bf7acbe5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _HeadShadeTex:
+        m_Texture: {fileID: 2800000, guid: 17ccbc927143f4d5b819403d11212ee1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: c49ff763d45c4bbd8fe716694a29d0f5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _HeadShadeStrength: 0
+    - _HemSplit: 0
+    - _JoinMode: 0
+    - _JoinStrength: 0
+    - _SeamOverlay: 0
+    - _SleeveSplit: 0
+    - _VertexAlpha: 0
+    - _Volume: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _JoinRect: {r: 0, g: 0, b: 1, a: 1}
+    - _LayerRect: {r: 0, g: 0, b: 1, a: 1}
+    - _SeamBand: {r: 0.16, g: 0.26, b: 0.08, a: 0.36}
+    - _SeamRect: {r: 0, g: 0, b: 1, a: 1}
+    - _SleeveDarkLimit: {r: 0.14, g: 0.26, b: 0.42, a: 0}
+    - _SleeveOpening: {r: 0, g: 0, b: 1, a: 0}
+    - _SleeveRadii: {r: 115, g: 26, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!21 &1350981111111111111
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Tail_celShaded
+  m_Shader: {fileID: 4800000, guid: 133b732567966fa9c557e1e3bf7acbe5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _HeadShadeTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: cbcf4622ae9b46f191c7550691712abb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _HairGradient: 0
+    - _HairSharpness: 0
+    - _HeadShadeStrength: 0
+    - _HemSplit: 0
+    - _JoinMode: 0
+    - _JoinStrength: 0
+    - _SkinColorJoin: 0
+    - _SkinOpaque: 0
+    - _SkinUnderCenter: 0
+    - _SleeveSplit: 0
+    - _SleeveTube: 0
+    - _TongueOut: 0
+    - _VertexAlpha: 0
+    - _Volume: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _HairUV: {r: 0, g: 0, b: 1, a: 1}
+    - _JoinRect: {r: 0, g: 0, b: 1, a: 1}
+    - _LayerRect: {r: 0, g: 0, b: 1, a: 1}
+    - _SleeveDarkLimit: {r: 0.14, g: 0.26, b: 0.42, a: 0}
+    - _SleeveOpening: {r: 0, g: 0, b: 1, a: 0}
+    - _SleeveRadii: {r: 115, g: 26, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

@@ -1,0 +1,838 @@
+{
+  "format": 1,
+  "name": "Traigger",
+  "author": "Traigger",
+  "version": "1.0",
+  "license": "Todos los derechos reservados (ver LICENSE-ART.md). No reutilizable.",
+  "description": "Personaje propio del autor, incluido solo como referencia técnica. No se permite usarlo ni redistribuirlo.",
+  "website": "",
+  "cameraSize": 2.8,
+  "cameraHeight": 2.45,
+  "bones": [
+    {
+      "name": "Hips",
+      "parent": -1,
+      "x": 0.0,
+      "y": 1.95
+    },
+    {
+      "name": "Spine",
+      "parent": 0,
+      "x": 0.0,
+      "y": 2.28
+    },
+    {
+      "name": "Chest",
+      "parent": 1,
+      "x": 0.0,
+      "y": 2.65
+    },
+    {
+      "name": "Neck",
+      "parent": 2,
+      "x": 0.0,
+      "y": 3.1
+    },
+    {
+      "name": "Head",
+      "parent": 3,
+      "x": 0.0,
+      "y": 3.27
+    },
+    {
+      "name": "RightEar",
+      "parent": 4,
+      "x": -0.376,
+      "y": 4.0608
+    },
+    {
+      "name": "LeftEar",
+      "parent": 4,
+      "x": 0.376,
+      "y": 4.0608
+    },
+    {
+      "name": "Hair",
+      "parent": 4,
+      "x": 0.0,
+      "y": 4.07
+    },
+    {
+      "name": "RightShoulder",
+      "parent": 2,
+      "x": -0.22,
+      "y": 3.0
+    },
+    {
+      "name": "RightUpperArm",
+      "parent": 8,
+      "x": -0.52,
+      "y": 2.92
+    },
+    {
+      "name": "RightLowerArm",
+      "parent": 9,
+      "x": -0.81,
+      "y": 2.33
+    },
+    {
+      "name": "RightHand",
+      "parent": 10,
+      "x": -0.97,
+      "y": 2.16
+    },
+    {
+      "name": "LeftShoulder",
+      "parent": 2,
+      "x": 0.22,
+      "y": 3.0
+    },
+    {
+      "name": "LeftUpperArm",
+      "parent": 12,
+      "x": 0.52,
+      "y": 2.92
+    },
+    {
+      "name": "LeftLowerArm",
+      "parent": 13,
+      "x": 0.76,
+      "y": 2.33
+    },
+    {
+      "name": "LeftHand",
+      "parent": 14,
+      "x": 0.88,
+      "y": 2.08
+    },
+    {
+      "name": "RightUpperLeg",
+      "parent": 0,
+      "x": -0.26,
+      "y": 1.95
+    },
+    {
+      "name": "RightLowerLeg",
+      "parent": 16,
+      "x": -0.3,
+      "y": 0.94
+    },
+    {
+      "name": "RightFoot",
+      "parent": 17,
+      "x": -0.34,
+      "y": 0.2
+    },
+    {
+      "name": "LeftUpperLeg",
+      "parent": 0,
+      "x": 0.26,
+      "y": 1.95
+    },
+    {
+      "name": "LeftLowerLeg",
+      "parent": 19,
+      "x": 0.3,
+      "y": 0.94
+    },
+    {
+      "name": "LeftFoot",
+      "parent": 20,
+      "x": 0.34,
+      "y": 0.2
+    },
+    {
+      "name": "Tail1",
+      "parent": 0,
+      "x": 0.241,
+      "y": 1.668
+    },
+    {
+      "name": "Tail2",
+      "parent": 22,
+      "x": 0.861,
+      "y": 1.268
+    },
+    {
+      "name": "Tail3",
+      "parent": 23,
+      "x": 1.391,
+      "y": 1.448
+    },
+    {
+      "name": "RightEye",
+      "parent": 4,
+      "x": -0.24,
+      "y": 3.61
+    },
+    {
+      "name": "LeftEye",
+      "parent": 4,
+      "x": 0.24,
+      "y": 3.61
+    },
+    {
+      "name": "RightToes",
+      "parent": 18,
+      "x": -0.36,
+      "y": 0.09
+    },
+    {
+      "name": "LeftToes",
+      "parent": 21,
+      "x": 0.36,
+      "y": 0.09
+    }
+  ],
+  "layers": [
+    {
+      "name": "Tail",
+      "texture": "TraiggerParts-clean.png",
+      "uv": [
+        0.44657096,
+        0.22807017,
+        0.30861244,
+        0.238437
+      ],
+      "rect": [
+        0.16,
+        1.15,
+        1.35,
+        1.15
+      ],
+      "columns": 18,
+      "rows": 22,
+      "bones": [
+        22
+      ],
+      "falloff": 2.0,
+      "order": 0,
+      "face": "None",
+      "tint": "#FFFFFFFF",
+      "topCenterExtension": 0.0,
+      "cheekSpread": 0.0,
+      "bottomCenterCutout": [
+        0.0,
+        0.0
+      ],
+      "sideCutout": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "BackHair",
+      "texture": "TraiggerParts-clean.png",
+      "uv": [
+        0.7695375,
+        0.2185008,
+        0.20972887,
+        0.22886762
+      ],
+      "rect": [
+        -0.6,
+        3.08,
+        1.2,
+        1.29
+      ],
+      "columns": 18,
+      "rows": 22,
+      "bones": [
+        4
+      ],
+      "falloff": 2.0,
+      "order": -100,
+      "face": "None",
+      "tint": "#FFFFFFFF",
+      "topCenterExtension": 0.0,
+      "cheekSpread": 0.0,
+      "bottomCenterCutout": [
+        0.0,
+        0.0
+      ],
+      "sideCutout": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "EarLeft",
+      "texture": "TraiggerParts-clean.png",
+      "uv": [
+        0.54385966,
+        0.71451354,
+        0.17304625,
+        0.2551834
+      ],
+      "rect": [
+        -0.746,
+        3.8208,
+        0.59,
+        0.92
+      ],
+      "columns": 18,
+      "rows": 22,
+      "bones": [
+        5
+      ],
+      "falloff": 2.0,
+      "order": 2,
+      "face": "None",
+      "tint": "#FFFFFFFF",
+      "topCenterExtension": 0.0,
+      "cheekSpread": 0.0,
+      "bottomCenterCutout": [
+        0.0,
+        0.0
+      ],
+      "sideCutout": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "EarRight",
+      "texture": "TraiggerParts-clean.png",
+      "uv": [
+        0.78548646,
+        0.71451354,
+        0.17065391,
+        0.25358853
+      ],
+      "rect": [
+        0.156,
+        3.8208,
+        0.59,
+        0.92
+      ],
+      "columns": 18,
+      "rows": 22,
+      "bones": [
+        6
+      ],
+      "falloff": 2.0,
+      "order": 2,
+      "face": "None",
+      "tint": "#FFFFFFFF",
+      "topCenterExtension": 0.0,
+      "cheekSpread": 0.0,
+      "bottomCenterCutout": [
+        0.0,
+        0.0
+      ],
+      "sideCutout": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "LegLeft",
+      "texture": "TraiggerParts-clean.png",
+      "uv": [
+        0.05582137,
+        0.24641149,
+        0.11802233,
+        0.20574163
+      ],
+      "rect": [
+        -0.6,
+        0.06,
+        0.49,
+        1.11
+      ],
+      "columns": 18,
+      "rows": 22,
+      "bones": [
+        17
+      ],
+      "falloff": 2.0,
+      "order": 3,
+      "face": "None",
+      "tint": "#FFFFFFFF",
+      "topCenterExtension": 0.0,
+      "cheekSpread": 0.0,
+      "bottomCenterCutout": [
+        0.0,
+        0.0
+      ],
+      "sideCutout": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "LegRight",
+      "texture": "TraiggerParts-clean.png",
+      "uv": [
+        0.31180224,
+        0.24720894,
+        0.11881977,
+        0.20494418
+      ],
+      "rect": [
+        0.1,
+        0.06,
+        0.49,
+        1.11
+      ],
+      "columns": 18,
+      "rows": 22,
+      "bones": [
+        20
+      ],
+      "falloff": 2.0,
+      "order": 3,
+      "face": "None",
+      "tint": "#FFFFFFFF",
+      "topCenterExtension": 0.0,
+      "cheekSpread": 0.0,
+      "bottomCenterCutout": [
+        0.0,
+        0.0
+      ],
+      "sideCutout": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Shorts",
+      "texture": "TraiggerParts-clean.png",
+      "uv": [
+        0.27751195,
+        0.49601275,
+        0.21052632,
+        0.1570973
+      ],
+      "rect": [
+        -0.64,
+        0.87,
+        1.28,
+        1.16
+      ],
+      "columns": 18,
+      "rows": 22,
+      "bones": [
+        0
+      ],
+      "falloff": 2.0,
+      "order": 4,
+      "face": "None",
+      "tint": "#FFFFFFFF",
+      "topCenterExtension": 0.0,
+      "cheekSpread": 0.0,
+      "bottomCenterCutout": [
+        0.0,
+        0.0
+      ],
+      "sideCutout": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "ArmLeft",
+      "texture": "TraiggerParts-clean.png",
+      "uv": [
+        0.5279107,
+        0.4848485,
+        0.18580543,
+        0.188198
+      ],
+      "rect": [
+        -1.28,
+        1.82,
+        0.76,
+        0.7268
+      ],
+      "columns": 18,
+      "rows": 22,
+      "bones": [
+        10
+      ],
+      "falloff": 2.0,
+      "order": 5,
+      "face": "None",
+      "tint": "#FFFFFFFF",
+      "topCenterExtension": 0.0,
+      "cheekSpread": 0.0,
+      "bottomCenterCutout": [
+        0.0,
+        0.0
+      ],
+      "sideCutout": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "ArmRight",
+      "texture": "TraiggerParts-clean.png",
+      "uv": [
+        0.78708136,
+        0.4848485,
+        0.18580543,
+        0.188198
+      ],
+      "rect": [
+        0.49,
+        1.65,
+        0.54,
+        0.9063
+      ],
+      "columns": 18,
+      "rows": 22,
+      "bones": [
+        14
+      ],
+      "falloff": 2.0,
+      "order": 5,
+      "face": "None",
+      "tint": "#FFFFFFFF",
+      "topCenterExtension": 0.0,
+      "cheekSpread": 0.0,
+      "bottomCenterCutout": [
+        0.0,
+        0.0
+      ],
+      "sideCutout": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Shirt",
+      "texture": "TraiggerParts-clean.png",
+      "uv": [
+        0.011961723,
+        0.47607654,
+        0.24720894,
+        0.21052632
+      ],
+      "rect": [
+        -0.85,
+        1.79,
+        1.7,
+        1.45
+      ],
+      "columns": 18,
+      "rows": 22,
+      "bones": [
+        2
+      ],
+      "falloff": 2.0,
+      "order": 6,
+      "face": "None",
+      "tint": "#FFFFFFFF",
+      "topCenterExtension": 0.12,
+      "cheekSpread": 0.0,
+      "bottomCenterCutout": [
+        0.0,
+        0.0
+      ],
+      "sideCutout": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "HeadBase",
+      "texture": "TraiggerParts-clean.png",
+      "uv": [
+        0.019138755,
+        0.7352472,
+        0.22807017,
+        0.20095694
+      ],
+      "rect": [
+        -0.64,
+        3.217,
+        1.28,
+        1.003
+      ],
+      "columns": 18,
+      "rows": 22,
+      "bones": [
+        4
+      ],
+      "falloff": 2.0,
+      "order": 7,
+      "face": "None",
+      "tint": "#FFFFFFFF",
+      "topCenterExtension": 0.0,
+      "cheekSpread": 0.0,
+      "bottomCenterCutout": [
+        0.0,
+        0.0
+      ],
+      "sideCutout": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "EyeLeft",
+      "texture": "TraiggerParts-clean.png",
+      "uv": [
+        0.043062203,
+        0.051834133,
+        0.16905901,
+        0.14513557
+      ],
+      "rect": [
+        -0.385,
+        3.49,
+        0.28,
+        0.28
+      ],
+      "columns": 18,
+      "rows": 22,
+      "bones": [
+        25
+      ],
+      "falloff": 2.0,
+      "order": 8,
+      "face": "BlinkLeft",
+      "tint": "#FFFFFFFF",
+      "topCenterExtension": 0.0,
+      "cheekSpread": 0.0,
+      "bottomCenterCutout": [
+        0.0,
+        0.0
+      ],
+      "sideCutout": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "EyeRight",
+      "texture": "TraiggerParts-clean.png",
+      "uv": [
+        0.28787878,
+        0.051834133,
+        0.17065391,
+        0.14513557
+      ],
+      "rect": [
+        0.105,
+        3.49,
+        0.28,
+        0.28
+      ],
+      "columns": 18,
+      "rows": 22,
+      "bones": [
+        26
+      ],
+      "falloff": 2.0,
+      "order": 8,
+      "face": "BlinkRight",
+      "tint": "#FFFFFFFF",
+      "topCenterExtension": 0.0,
+      "cheekSpread": 0.0,
+      "bottomCenterCutout": [
+        0.0,
+        0.0
+      ],
+      "sideCutout": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Eyebrows",
+      "texture": "TraiggerParts-clean.png",
+      "uv": [
+        0.7567783,
+        0.09888357,
+        0.22807017,
+        0.036682617
+      ],
+      "rect": [
+        -0.43,
+        3.85,
+        0.86,
+        0.11
+      ],
+      "columns": 18,
+      "rows": 22,
+      "bones": [
+        4
+      ],
+      "falloff": 2.0,
+      "order": 9,
+      "face": "None",
+      "tint": "#FFFFFFFF",
+      "topCenterExtension": 0.0,
+      "cheekSpread": 0.0,
+      "bottomCenterCutout": [
+        0.0,
+        0.0
+      ],
+      "sideCutout": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Mouth",
+      "texture": "TraiggerParts-clean.png",
+      "uv": [
+        0.53429025,
+        0.053429026,
+        0.16028708,
+        0.10526316
+      ],
+      "rect": [
+        -0.12,
+        3.325,
+        0.24,
+        0.055
+      ],
+      "columns": 18,
+      "rows": 22,
+      "bones": [
+        4
+      ],
+      "falloff": 2.0,
+      "order": 9,
+      "face": "Mouth",
+      "tint": "#FFFFFFFF",
+      "topCenterExtension": 0.0,
+      "cheekSpread": 0.0,
+      "bottomCenterCutout": [
+        0.0,
+        0.0
+      ],
+      "sideCutout": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "FrontHair",
+      "texture": "TraiggerParts-clean.png",
+      "uv": [
+        0.25279108,
+        0.7137161,
+        0.24720894,
+        0.2551834
+      ],
+      "rect": [
+        -0.7,
+        3.05,
+        1.4,
+        1.35
+      ],
+      "columns": 18,
+      "rows": 22,
+      "bones": [
+        4,
+        7
+      ],
+      "falloff": 2.0,
+      "order": 10,
+      "face": "None",
+      "tint": "#FFFFFFFF",
+      "topCenterExtension": 0.0,
+      "cheekSpread": 0.0,
+      "bottomCenterCutout": [
+        0.0,
+        0.0
+      ],
+      "sideCutout": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "CheekLeft",
+      "texture": "TraiggerParts-clean.png",
+      "uv": [
+        0.019138755,
+        0.7400319,
+        0.034290273,
+        0.07496013
+      ],
+      "rect": [
+        -0.64,
+        3.2409,
+        0.19244756,
+        0.37413493
+      ],
+      "columns": 18,
+      "rows": 22,
+      "bones": [
+        4
+      ],
+      "falloff": 2.0,
+      "order": 9,
+      "face": "None",
+      "tint": "#FFFFFFFF",
+      "topCenterExtension": 0.0,
+      "cheekSpread": 0.0,
+      "bottomCenterCutout": [
+        0.0,
+        0.0
+      ],
+      "sideCutout": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "CheekRight",
+      "texture": "TraiggerParts-clean.png",
+      "uv": [
+        0.21291865,
+        0.7400319,
+        0.034290273,
+        0.07496013
+      ],
+      "rect": [
+        0.44755244,
+        3.2409,
+        0.19244756,
+        0.37413493
+      ],
+      "columns": 18,
+      "rows": 22,
+      "bones": [
+        4
+      ],
+      "falloff": 2.0,
+      "order": 9,
+      "face": "None",
+      "tint": "#FFFFFFFF",
+      "topCenterExtension": 0.0,
+      "cheekSpread": 0.0,
+      "bottomCenterCutout": [
+        0.0,
+        0.0
+      ],
+      "sideCutout": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

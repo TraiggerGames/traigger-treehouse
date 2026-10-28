@@ -1,0 +1,5 @@
+# Copia este archivo como «signing.local» y pon tus datos (signing.local no se sube al repositorio).
+# Tu equipo: developer.apple.com → Membership. Tus identidades: security find-identity -v -p codesigning
+TRAIGGER_TEAM="XXXXXXXXXX"
+TRAIGGER_SIGN_IDENTITY="Apple Development: Tu Nombre (XXXXXXXXXX)"
+TRAIGGER_DEVELOPER_ID="Developer ID Application: Tu Nombre (XXXXXXXXXX)"

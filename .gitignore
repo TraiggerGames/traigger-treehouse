@@ -1,0 +1,44 @@
+Library/
+Temp/
+Logs/
+obj/
+UserSettings/
+Builds/
+*.csproj
+*.sln
+
+# Firma local (tus datos de Apple): copia signing.example como signing.local
+signing.local
+# Compilaciones y proyectos generados
+MacCamera/build/
+MacCamera/MoviePlugin/build/
+NativeUI/Control/build/
+MacCamera/TraiggerCamera.xcodeproj/
+NativeUI/Control/TraiggerControl.xcodeproj/
+# Descargas de terceros (ver docs/TERCEROS.md)
+ThirdParty/
+# Índice local de la herramienta okf y archivos del sistema
+okf_bundle/
+.DS_Store
+
+# ── Repositorio público (Traigger Treehouse) ──
+# Bibliotecas de terceros: se instalan con Tools/fetch_thirdparty.sh (sus .meta sí se suben)
+Assets/Traigger/Plugins/iOS/VLCKit.framework/
+Assets/Traigger/Plugins/visionOS/VLCKit.framework/
+# Plugins del Mac compilados y firmados por cada uno (MacCamera/MoviePlugin/build.sh)
+Assets/Traigger/Plugins/macOS/TraiggerMoviePlayer.bundle/
+Assets/Traigger/Plugins/macOS/TraiggerVirtualCam.dylib
+# Copias de mallas que ninguna escena usa (generadas por RepairScene); solo se suben las referenciadas
+Assets/Traigger/Art/TraiggerMeshData*.asset
+Assets/Traigger/Art/TraiggerMeshData*.asset.meta
+!Assets/Traigger/Art/TraiggerMeshData 22.asset
+!Assets/Traigger/Art/TraiggerMeshData 22.asset.meta
+!Assets/Traigger/Art/TraiggerMeshData 52.asset
+!Assets/Traigger/Art/TraiggerMeshData 52.asset.meta
+!Assets/Traigger/Art/TraiggerMeshData 127.asset
+!Assets/Traigger/Art/TraiggerMeshData 127.asset.meta
+!Assets/Traigger/Art/TraiggerMeshData 139.asset
+!Assets/Traigger/Art/TraiggerMeshData 139.asset.meta
+# Historial de desarrollo local (copias de seguridad, capturas de validación)
+Rollback/
+Validation/

@@ -1,0 +1,15 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "prompts": [
+    {
+      "target": "TraiggerParts-clean.png",
+      "output": "Traigger-head-shading-v1.png",
+      "prompt": "Use case: precise-object-edit. Input 1 is the EDIT TARGET: existing square 1254x1254 Unity UV sprite atlas. Input 2 is SHADING REFERENCE ONLY, do not copy its limbs into target. Repaint ONLY shading inside existing head, hair and ears in top row, and the small back hair at right of third row. Match the body's kemono anime cel shading: warm amber occlusion on lower/side cheek fur, restrained golden highlights, two clean shadow tones, subtle violet/brown hair shadows and narrow cyan hair highlights, darker pink ear recesses. Preserve EXACT original geometry, all silhouettes, facial details, black linework, colors, head shape, cut hair gaps, every piece's exact pixel position, scale, atlas layout and transparent alpha. Do not restore cut-away hair. Head must stay faceless with separate eyes and mouth below, do not add eyes to head base. Eyes, mouth, eyebrows, shirt, pants, arms, legs, tail must remain unchanged. Do not add any cast shadow outside silhouettes. Keep transparent background. Same original kemono drawing style, no redesign, no realism, no 3D rendering. Output square with exactly same layout and canvas registration. This image will be mapped onto an existing rig without moving any UV or vertex."
+    },
+    {
+      "target": "BackHair-v2.png",
+      "output": "BackHair-shading-v1.png",
+      "prompt": "Use case precise-object-edit. Image1 edit target: isolated BACK HAIR sprite, square1254x1254. Image2 color/shading reference ONLY: its top row front hair. Shade Image1 with the same kemono anime cel shading and strand highlights, retain dark nearly black brown hair and cyan tips. Add restrained warm highlights and two clean brown/violet shadow tones, cyan tips with clean shaded streaks. Preserve exact canvas, position,scale,silhouette, strand shapes, cutouts, linework and transparent alpha. No new strands, no enlarged silhouette, no head/face/ears/body. Do not move any part of image. Transparent background, shading only. Match original kemono illustration rather than realism or3D."
+    }
+  ]
+}

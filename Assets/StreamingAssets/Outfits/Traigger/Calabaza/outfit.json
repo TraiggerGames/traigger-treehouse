@@ -1,0 +1,208 @@
+{
+  "format": 1,
+  "name": "Calabaza",
+  "character": "Traigger",
+  "author": "Traigger",
+  "license": "Todos los derechos reservados (LICENSE-ART.md)",
+  "hide": [
+    "Kemono_Torso",
+    "Kemono_ShirtRearHem",
+    "Kemono_Pelvis",
+    "Kemono_ThighLeft",
+    "Kemono_ThighRight",
+    "Kemono_SleeveLeft",
+    "Kemono_SleeveRight",
+    "Shirt",
+    "Shorts",
+    "Kemono_SleeveLiningLeft",
+    "Kemono_SleeveLiningRight"
+  ],
+  "options": [
+    {
+      "id": "hood",
+      "label": "Capucha",
+      "on": true
+    }
+  ],
+  "pieces": [
+    {
+      "name": "Neck",
+      "texture": "NeckFromBody.png",
+      "fit": "Kemono_Torso",
+      "fullImage": true
+    },
+    {
+      "name": "PumpkinTorso",
+      "texture": "PumpkinTorso.png",
+      "fit": "Kemono_Torso",
+      "pad": [
+        0,
+        0,
+        0,
+        -0.09
+      ],
+      "orderOffset": 1
+    },
+    {
+      "name": "PumpkinShortsPelvis",
+      "texture": "PumpkinShortsPelvis.png",
+      "fit": "Kemono_Pelvis",
+      "pad": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "PumpkinShortsLegLeft",
+      "texture": "PumpkinShortsLegLeft.png",
+      "fit": "Kemono_ThighLeft",
+      "pad": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "PumpkinShortsLegRight",
+      "texture": "PumpkinShortsLegRight.png",
+      "fit": "Kemono_ThighRight",
+      "pad": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "PumpkinSleeveLeftCloth",
+      "texture": "PumpkinSleeveLeftCloth.png",
+      "fit": "Kemono_SleeveLeft",
+      "pad": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fitTexture": "PumpkinSleeveLeft.png",
+      "sleeveSide": "Right",
+      "sleevePart": "Cloth"
+    },
+    {
+      "name": "PumpkinSleeveLeftCuff",
+      "texture": "PumpkinSleeveLeftCuff.png",
+      "fit": "Kemono_SleeveLeft",
+      "pad": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fitTexture": "PumpkinSleeveLeft.png",
+      "sleeveSide": "Right",
+      "sleevePart": "Cuff"
+    },
+    {
+      "name": "PumpkinSleeveLeftLining",
+      "texture": "PumpkinSleeveLeftLining.png",
+      "fit": "Kemono_SleeveLeft",
+      "pad": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fitTexture": "PumpkinSleeveLeft.png",
+      "sleeveSide": "Right",
+      "orderFrom": "Kemono_SleeveLiningLeft",
+      "sleevePart": "Lining"
+    },
+    {
+      "name": "PumpkinSleeveRightCloth",
+      "texture": "PumpkinSleeveRightCloth.png",
+      "fit": "Kemono_SleeveRight",
+      "pad": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fitTexture": "PumpkinSleeveRight.png",
+      "sleeveSide": "Left",
+      "sleevePart": "Cloth"
+    },
+    {
+      "name": "PumpkinSleeveRightCuff",
+      "texture": "PumpkinSleeveRightCuff.png",
+      "fit": "Kemono_SleeveRight",
+      "pad": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fitTexture": "PumpkinSleeveRight.png",
+      "sleeveSide": "Left",
+      "sleevePart": "Cuff"
+    },
+    {
+      "name": "PumpkinSleeveRightLining",
+      "texture": "PumpkinSleeveRightLining.png",
+      "fit": "Kemono_SleeveRight",
+      "pad": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fitTexture": "PumpkinSleeveRight.png",
+      "sleeveSide": "Left",
+      "orderFrom": "Kemono_SleeveLiningRight",
+      "sleevePart": "Lining"
+    },
+    {
+      "name": "PumpkinHoodBack",
+      "texture": "PumpkinHoodBack.png",
+      "option": "hood",
+      "weightsFrom": "HeadBase",
+      "rect": [
+        -0.84,
+        3.0,
+        1.68,
+        1.45
+      ],
+      "orderFrom": "BackHair",
+      "orderOffset": -10
+    },
+    {
+      "name": "PumpkinHoodFront",
+      "texture": "PumpkinHoodFront.png",
+      "option": "hood",
+      "weightsFrom": "HeadBase",
+      "rect": [
+        -0.84,
+        3.94,
+        1.68,
+        0.54
+      ],
+      "orderFrom": "FrontHair",
+      "orderOffset": 30
+    },
+    {
+      "name": "PumpkinStemLeaves",
+      "texture": "PumpkinStemLeaves.png",
+      "option": "hood",
+      "weightsFrom": "HeadBase",
+      "rect": [
+        -0.37,
+        4.25,
+        0.74,
+        0.36
+      ],
+      "orderFrom": "FrontHair",
+      "orderOffset": 31
+    }
+  ]
+}

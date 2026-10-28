@@ -1,0 +1,503 @@
+{
+  "note" : "17 source-pixel sprites; shared continuous seam deformation; 17 body springs and 17 tip springs; 4 crown wisps",
+  "sourceSize" : [
+    2508,
+    2508
+  ],
+  "strands" : [
+    {
+      "angle" : 6.5,
+      "crown" : false,
+      "mass" : 1.3500000000000001,
+      "name" : "Center",
+      "order" : 17,
+      "ownedPixels" : 42174,
+      "rect" : [
+        844,
+        142,
+        194,
+        381
+      ],
+      "resource" : "Hair\/Strands\/FrontHairCenter",
+      "root" : [
+        938,
+        151
+      ],
+      "tip" : [
+        962,
+        506
+      ],
+      "visibleRect" : [
+        856,
+        154,
+        170,
+        357
+      ]
+    },
+    {
+      "angle" : 7,
+      "crown" : false,
+      "mass" : 1.05,
+      "name" : "BrownLeft",
+      "order" : 14,
+      "ownedPixels" : 8890,
+      "rect" : [
+        797,
+        158,
+        114,
+        301
+      ],
+      "resource" : "Hair\/Strands\/FrontHairBrownLeft",
+      "root" : [
+        894,
+        168
+      ],
+      "tip" : [
+        877,
+        448
+      ],
+      "visibleRect" : [
+        809,
+        170,
+        90,
+        277
+      ]
+    },
+    {
+      "angle" : 7,
+      "crown" : false,
+      "mass" : 1.1000000000000001,
+      "name" : "BrownRight",
+      "order" : 13,
+      "ownedPixels" : 11187,
+      "rect" : [
+        965,
+        157,
+        133,
+        302
+      ],
+      "resource" : "Hair\/Strands\/FrontHairBrownRight",
+      "root" : [
+        989,
+        166
+      ],
+      "tip" : [
+        1000,
+        451
+      ],
+      "visibleRect" : [
+        977,
+        169,
+        109,
+        278
+      ]
+    },
+    {
+      "angle" : 8,
+      "crown" : false,
+      "mass" : 0.84999999999999998,
+      "name" : "CyanInnerLeft",
+      "order" : 16,
+      "ownedPixels" : 8040,
+      "rect" : [
+        751,
+        171,
+        116,
+        298
+      ],
+      "resource" : "Hair\/Strands\/FrontHairCyanInnerLeft",
+      "root" : [
+        851,
+        181
+      ],
+      "tip" : [
+        802,
+        449
+      ],
+      "visibleRect" : [
+        763,
+        183,
+        92,
+        274
+      ]
+    },
+    {
+      "angle" : 8,
+      "crown" : false,
+      "mass" : 0.88,
+      "name" : "CyanInnerRight",
+      "order" : 15,
+      "ownedPixels" : 10050,
+      "rect" : [
+        1026,
+        180,
+        116,
+        293
+      ],
+      "resource" : "Hair\/Strands\/FrontHairCyanInnerRight",
+      "root" : [
+        1044,
+        191
+      ],
+      "tip" : [
+        1069,
+        457
+      ],
+      "visibleRect" : [
+        1038,
+        192,
+        92,
+        269
+      ]
+    },
+    {
+      "angle" : 7.5,
+      "crown" : false,
+      "mass" : 1.1499999999999999,
+      "name" : "SweepLeft",
+      "order" : 12,
+      "ownedPixels" : 12208,
+      "rect" : [
+        691,
+        187,
+        136,
+        332
+      ],
+      "resource" : "Hair\/Strands\/FrontHairSweepLeft",
+      "root" : [
+        813,
+        198
+      ],
+      "tip" : [
+        787,
+        504
+      ],
+      "visibleRect" : [
+        703,
+        199,
+        112,
+        308
+      ]
+    },
+    {
+      "angle" : 7.5,
+      "crown" : false,
+      "mass" : 1.1499999999999999,
+      "name" : "SweepRight",
+      "order" : 11,
+      "ownedPixels" : 11540,
+      "rect" : [
+        1063,
+        186,
+        134,
+        339
+      ],
+      "resource" : "Hair\/Strands\/FrontHairSweepRight",
+      "root" : [
+        1070,
+        198
+      ],
+      "tip" : [
+        1097,
+        510
+      ],
+      "visibleRect" : [
+        1075,
+        198,
+        110,
+        315
+      ]
+    },
+    {
+      "angle" : 8.5,
+      "crown" : false,
+      "mass" : 1.3,
+      "name" : "SideInnerLeft",
+      "order" : 10,
+      "ownedPixels" : 15566,
+      "rect" : [
+        678,
+        318,
+        135,
+        383
+      ],
+      "resource" : "Hair\/Strands\/FrontHairSideInnerLeft",
+      "root" : [
+        746,
+        291
+      ],
+      "tip" : [
+        801,
+        691
+      ],
+      "visibleRect" : [
+        690,
+        330,
+        111,
+        359
+      ]
+    },
+    {
+      "angle" : 8,
+      "crown" : false,
+      "mass" : 1.3500000000000001,
+      "name" : "SideMiddleLeft",
+      "order" : 8,
+      "ownedPixels" : 9077,
+      "rect" : [
+        648,
+        279,
+        111,
+        386
+      ],
+      "resource" : "Hair\/Strands\/FrontHairSideMiddleLeft",
+      "root" : [
+        724,
+        287
+      ],
+      "tip" : [
+        737,
+        650
+      ],
+      "visibleRect" : [
+        660,
+        291,
+        87,
+        362
+      ]
+    },
+    {
+      "angle" : 7,
+      "crown" : false,
+      "mass" : 0.90000000000000002,
+      "name" : "SideOuterLeft",
+      "order" : 6,
+      "ownedPixels" : 3693,
+      "rect" : [
+        633,
+        265,
+        85,
+        238
+      ],
+      "resource" : "Hair\/Strands\/FrontHairSideOuterLeft",
+      "root" : [
+        711,
+        279
+      ],
+      "tip" : [
+        655,
+        490
+      ],
+      "visibleRect" : [
+        645,
+        277,
+        61,
+        214
+      ]
+    },
+    {
+      "angle" : 8.5,
+      "crown" : false,
+      "mass" : 1.3,
+      "name" : "SideInnerRight",
+      "order" : 9,
+      "ownedPixels" : 16962,
+      "rect" : [
+        1069,
+        283,
+        137,
+        420
+      ],
+      "resource" : "Hair\/Strands\/FrontHairSideInnerRight",
+      "root" : [
+        1140,
+        291
+      ],
+      "tip" : [
+        1092,
+        691
+      ],
+      "visibleRect" : [
+        1081,
+        295,
+        113,
+        396
+      ]
+    },
+    {
+      "angle" : 8,
+      "crown" : false,
+      "mass" : 1.3500000000000001,
+      "name" : "SideMiddleRight",
+      "order" : 7,
+      "ownedPixels" : 8620,
+      "rect" : [
+        1127,
+        294,
+        110,
+        375
+      ],
+      "resource" : "Hair\/Strands\/FrontHairSideMiddleRight",
+      "root" : [
+        1161,
+        287
+      ],
+      "tip" : [
+        1147,
+        650
+      ],
+      "visibleRect" : [
+        1139,
+        306,
+        86,
+        351
+      ]
+    },
+    {
+      "angle" : 7,
+      "crown" : false,
+      "mass" : 0.90000000000000002,
+      "name" : "SideOuterRight",
+      "order" : 5,
+      "ownedPixels" : 3538,
+      "rect" : [
+        1168,
+        265,
+        83,
+        234
+      ],
+      "resource" : "Hair\/Strands\/FrontHairSideOuterRight",
+      "root" : [
+        1173,
+        279
+      ],
+      "tip" : [
+        1229,
+        490
+      ],
+      "visibleRect" : [
+        1180,
+        277,
+        59,
+        210
+      ]
+    },
+    {
+      "angle" : 6,
+      "crown" : true,
+      "mass" : 0.55000000000000004,
+      "name" : "CrownLeft",
+      "order" : 2,
+      "ownedPixels" : 4346,
+      "rect" : [
+        689,
+        121,
+        173,
+        123
+      ],
+      "resource" : "Hair\/Strands\/FrontHairCrownLeft",
+      "root" : [
+        850,
+        169
+      ],
+      "tip" : [
+        704,
+        233
+      ],
+      "visibleRect" : [
+        701,
+        133,
+        149,
+        99
+      ]
+    },
+    {
+      "angle" : 8,
+      "crown" : true,
+      "mass" : 0.38,
+      "name" : "CrownWispLeft",
+      "order" : 4,
+      "ownedPixels" : 2449,
+      "rect" : [
+        807,
+        84,
+        144,
+        87
+      ],
+      "resource" : "Hair\/Strands\/FrontHairCrownWispLeft",
+      "root" : [
+        936,
+        145
+      ],
+      "tip" : [
+        820,
+        99
+      ],
+      "visibleRect" : [
+        819,
+        96,
+        120,
+        63
+      ]
+    },
+    {
+      "angle" : 8,
+      "crown" : true,
+      "mass" : 0.38,
+      "name" : "CrownWispRight",
+      "order" : 3,
+      "ownedPixels" : 2212,
+      "rect" : [
+        925,
+        69,
+        134,
+        98
+      ],
+      "resource" : "Hair\/Strands\/FrontHairCrownWispRight",
+      "root" : [
+        938,
+        145
+      ],
+      "tip" : [
+        1046,
+        82
+      ],
+      "visibleRect" : [
+        937,
+        81,
+        110,
+        74
+      ]
+    },
+    {
+      "angle" : 6,
+      "crown" : true,
+      "mass" : 0.55000000000000004,
+      "name" : "CrownRight",
+      "order" : 1,
+      "ownedPixels" : 4570,
+      "rect" : [
+        1021,
+        119,
+        178,
+        122
+      ],
+      "resource" : "Hair\/Strands\/FrontHairCrownRight",
+      "root" : [
+        1032,
+        169
+      ],
+      "tip" : [
+        1186,
+        232
+      ],
+      "visibleRect" : [
+        1033,
+        131,
+        154,
+        98
+      ]
+    }
+  ],
+  "version" : 3
+}

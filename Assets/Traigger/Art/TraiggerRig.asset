@@ -1,0 +1,554 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b30fded5155ed2c90004bcb159209a72, type: 3}
+  m_Name: Traigger - reconstruccion provisional
+  m_EditorClassIdentifier: 
+  layerShader: {fileID: 4800000, guid: 133b732567966fa9c557e1e3bf7acbe5, type: 3}
+  bones:
+  - name: Hips
+    parent: -1
+    position: {x: 0, y: 1.95}
+  - name: Spine
+    parent: 0
+    position: {x: 0, y: 2.28}
+  - name: Chest
+    parent: 1
+    position: {x: 0, y: 2.65}
+  - name: Neck
+    parent: 2
+    position: {x: 0, y: 3.1}
+  - name: Head
+    parent: 3
+    position: {x: 0, y: 3.27}
+  - name: RightEar
+    parent: 4
+    position: {x: -0.376, y: 4.0608}
+  - name: LeftEar
+    parent: 4
+    position: {x: 0.376, y: 4.0608}
+  - name: Hair
+    parent: 4
+    position: {x: 0, y: 4.07}
+  - name: RightShoulder
+    parent: 2
+    position: {x: -0.22, y: 3}
+  - name: RightUpperArm
+    parent: 8
+    position: {x: -0.52, y: 2.92}
+  - name: RightLowerArm
+    parent: 9
+    position: {x: -0.81, y: 2.33}
+  - name: RightHand
+    parent: 10
+    position: {x: -0.97, y: 2.16}
+  - name: LeftShoulder
+    parent: 2
+    position: {x: 0.22, y: 3}
+  - name: LeftUpperArm
+    parent: 12
+    position: {x: 0.52, y: 2.92}
+  - name: LeftLowerArm
+    parent: 13
+    position: {x: 0.76, y: 2.33}
+  - name: LeftHand
+    parent: 14
+    position: {x: 0.88, y: 2.08}
+  - name: RightUpperLeg
+    parent: 0
+    position: {x: -0.26, y: 1.95}
+  - name: RightLowerLeg
+    parent: 16
+    position: {x: -0.3, y: 0.94}
+  - name: RightFoot
+    parent: 17
+    position: {x: -0.34, y: 0.2}
+  - name: LeftUpperLeg
+    parent: 0
+    position: {x: 0.26, y: 1.95}
+  - name: LeftLowerLeg
+    parent: 19
+    position: {x: 0.3, y: 0.94}
+  - name: LeftFoot
+    parent: 20
+    position: {x: 0.34, y: 0.2}
+  - name: Tail1
+    parent: 0
+    position: {x: 0.241, y: 1.668}
+  - name: Tail2
+    parent: 22
+    position: {x: 0.861, y: 1.268}
+  - name: Tail3
+    parent: 23
+    position: {x: 1.391, y: 1.448}
+  - name: RightEye
+    parent: 4
+    position: {x: -0.24, y: 3.61}
+  - name: LeftEye
+    parent: 4
+    position: {x: 0.24, y: 3.61}
+  - name: RightToes
+    parent: 18
+    position: {x: -0.36, y: 0.09}
+  - name: LeftToes
+    parent: 21
+    position: {x: 0.36, y: 0.09}
+  layers:
+  - name: Tail
+    texture: {fileID: 2800000, guid: 65317283a9d7b1d43769bc6e43e5d2a7, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    uvRect:
+      serializedVersion: 2
+      x: 0.44657096
+      y: 0.22807017
+      width: 0.30861244
+      height: 0.238437
+    rect:
+      serializedVersion: 2
+      x: 0.16
+      y: 1.15
+      width: 1.35
+      height: 1.15
+    columns: 18
+    rows: 22
+    bones: 16000000
+    falloff: 2
+    topCenterExtension: 0
+    bottomCenterCutout: {x: 0, y: 0}
+    cheekSpread: 0
+    sideCutout: {x: 0, y: 0, z: 0}
+    order: 0
+    face: 0
+  - name: BackHair
+    texture: {fileID: 2800000, guid: 65317283a9d7b1d43769bc6e43e5d2a7, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    uvRect:
+      serializedVersion: 2
+      x: 0.7695375
+      y: 0.2185008
+      width: 0.20972887
+      height: 0.22886762
+    rect:
+      serializedVersion: 2
+      x: -0.6
+      y: 3.08
+      width: 1.2
+      height: 1.29
+    columns: 18
+    rows: 22
+    bones: 04000000
+    falloff: 2
+    topCenterExtension: 0
+    bottomCenterCutout: {x: 0, y: 0}
+    cheekSpread: 0
+    sideCutout: {x: 0, y: 0, z: 0}
+    order: -100
+    face: 0
+  - name: EarLeft
+    texture: {fileID: 2800000, guid: 65317283a9d7b1d43769bc6e43e5d2a7, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    uvRect:
+      serializedVersion: 2
+      x: 0.54385966
+      y: 0.71451354
+      width: 0.17304625
+      height: 0.2551834
+    rect:
+      serializedVersion: 2
+      x: -0.746
+      y: 3.8208
+      width: 0.59
+      height: 0.92
+    columns: 18
+    rows: 22
+    bones: 05000000
+    falloff: 2
+    topCenterExtension: 0
+    bottomCenterCutout: {x: 0, y: 0}
+    cheekSpread: 0
+    sideCutout: {x: 0, y: 0, z: 0}
+    order: 2
+    face: 0
+  - name: EarRight
+    texture: {fileID: 2800000, guid: 65317283a9d7b1d43769bc6e43e5d2a7, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    uvRect:
+      serializedVersion: 2
+      x: 0.78548646
+      y: 0.71451354
+      width: 0.17065391
+      height: 0.25358853
+    rect:
+      serializedVersion: 2
+      x: 0.156
+      y: 3.8208
+      width: 0.59
+      height: 0.92
+    columns: 18
+    rows: 22
+    bones: 06000000
+    falloff: 2
+    topCenterExtension: 0
+    bottomCenterCutout: {x: 0, y: 0}
+    cheekSpread: 0
+    sideCutout: {x: 0, y: 0, z: 0}
+    order: 2
+    face: 0
+  - name: LegLeft
+    texture: {fileID: 2800000, guid: 65317283a9d7b1d43769bc6e43e5d2a7, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    uvRect:
+      serializedVersion: 2
+      x: 0.05582137
+      y: 0.24641149
+      width: 0.11802233
+      height: 0.20574163
+    rect:
+      serializedVersion: 2
+      x: -0.6
+      y: 0.06
+      width: 0.49
+      height: 1.11
+    columns: 18
+    rows: 22
+    bones: 11000000
+    falloff: 2
+    topCenterExtension: 0
+    bottomCenterCutout: {x: 0, y: 0}
+    cheekSpread: 0
+    sideCutout: {x: 0, y: 0, z: 0}
+    order: 3
+    face: 0
+  - name: LegRight
+    texture: {fileID: 2800000, guid: 65317283a9d7b1d43769bc6e43e5d2a7, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    uvRect:
+      serializedVersion: 2
+      x: 0.31180224
+      y: 0.24720894
+      width: 0.11881977
+      height: 0.20494418
+    rect:
+      serializedVersion: 2
+      x: 0.1
+      y: 0.06
+      width: 0.49
+      height: 1.11
+    columns: 18
+    rows: 22
+    bones: 14000000
+    falloff: 2
+    topCenterExtension: 0
+    bottomCenterCutout: {x: 0, y: 0}
+    cheekSpread: 0
+    sideCutout: {x: 0, y: 0, z: 0}
+    order: 3
+    face: 0
+  - name: Shorts
+    texture: {fileID: 2800000, guid: 65317283a9d7b1d43769bc6e43e5d2a7, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    uvRect:
+      serializedVersion: 2
+      x: 0.27751195
+      y: 0.49601275
+      width: 0.21052632
+      height: 0.1570973
+    rect:
+      serializedVersion: 2
+      x: -0.64
+      y: 0.87
+      width: 1.28
+      height: 1.16
+    columns: 18
+    rows: 22
+    bones: 00000000
+    falloff: 2
+    topCenterExtension: 0
+    bottomCenterCutout: {x: 0, y: 0}
+    cheekSpread: 0
+    sideCutout: {x: 0, y: 0, z: 0}
+    order: 4
+    face: 0
+  - name: ArmLeft
+    texture: {fileID: 2800000, guid: 65317283a9d7b1d43769bc6e43e5d2a7, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    uvRect:
+      serializedVersion: 2
+      x: 0.5279107
+      y: 0.4848485
+      width: 0.18580543
+      height: 0.188198
+    rect:
+      serializedVersion: 2
+      x: -1.28
+      y: 1.82
+      width: 0.76
+      height: 0.7268
+    columns: 18
+    rows: 22
+    bones: 0a000000
+    falloff: 2
+    topCenterExtension: 0
+    bottomCenterCutout: {x: 0, y: 0}
+    cheekSpread: 0
+    sideCutout: {x: 0, y: 0, z: 0}
+    order: 5
+    face: 0
+  - name: ArmRight
+    texture: {fileID: 2800000, guid: 65317283a9d7b1d43769bc6e43e5d2a7, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    uvRect:
+      serializedVersion: 2
+      x: 0.78708136
+      y: 0.4848485
+      width: 0.18580543
+      height: 0.188198
+    rect:
+      serializedVersion: 2
+      x: 0.49
+      y: 1.65
+      width: 0.54
+      height: 0.9063
+    columns: 18
+    rows: 22
+    bones: 0e000000
+    falloff: 2
+    topCenterExtension: 0
+    bottomCenterCutout: {x: 0, y: 0}
+    cheekSpread: 0
+    sideCutout: {x: 0, y: 0, z: 0}
+    order: 5
+    face: 0
+  - name: Shirt
+    texture: {fileID: 2800000, guid: 65317283a9d7b1d43769bc6e43e5d2a7, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    uvRect:
+      serializedVersion: 2
+      x: 0.011961723
+      y: 0.47607654
+      width: 0.24720894
+      height: 0.21052632
+    rect:
+      serializedVersion: 2
+      x: -0.85
+      y: 1.79
+      width: 1.7
+      height: 1.45
+    columns: 18
+    rows: 22
+    bones: 02000000
+    falloff: 2
+    topCenterExtension: 0.12
+    bottomCenterCutout: {x: 0, y: 0}
+    cheekSpread: 0
+    sideCutout: {x: 0, y: 0, z: 0}
+    order: 6
+    face: 0
+  - name: HeadBase
+    texture: {fileID: 2800000, guid: 65317283a9d7b1d43769bc6e43e5d2a7, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    uvRect:
+      serializedVersion: 2
+      x: 0.019138755
+      y: 0.7352472
+      width: 0.22807017
+      height: 0.20095694
+    rect:
+      serializedVersion: 2
+      x: -0.64
+      y: 3.217
+      width: 1.28
+      height: 1.003
+    columns: 18
+    rows: 22
+    bones: 04000000
+    falloff: 2
+    topCenterExtension: 0
+    bottomCenterCutout: {x: 0, y: 0}
+    cheekSpread: 0
+    sideCutout: {x: 0, y: 0, z: 0}
+    order: 7
+    face: 0
+  - name: EyeLeft
+    texture: {fileID: 2800000, guid: 65317283a9d7b1d43769bc6e43e5d2a7, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    uvRect:
+      serializedVersion: 2
+      x: 0.043062203
+      y: 0.051834133
+      width: 0.16905901
+      height: 0.14513557
+    rect:
+      serializedVersion: 2
+      x: -0.385
+      y: 3.49
+      width: 0.28
+      height: 0.28
+    columns: 18
+    rows: 22
+    bones: 19000000
+    falloff: 2
+    topCenterExtension: 0
+    bottomCenterCutout: {x: 0, y: 0}
+    cheekSpread: 0
+    sideCutout: {x: 0, y: 0, z: 0}
+    order: 8
+    face: 1
+  - name: EyeRight
+    texture: {fileID: 2800000, guid: 65317283a9d7b1d43769bc6e43e5d2a7, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    uvRect:
+      serializedVersion: 2
+      x: 0.28787878
+      y: 0.051834133
+      width: 0.17065391
+      height: 0.14513557
+    rect:
+      serializedVersion: 2
+      x: 0.105
+      y: 3.49
+      width: 0.28
+      height: 0.28
+    columns: 18
+    rows: 22
+    bones: 1a000000
+    falloff: 2
+    topCenterExtension: 0
+    bottomCenterCutout: {x: 0, y: 0}
+    cheekSpread: 0
+    sideCutout: {x: 0, y: 0, z: 0}
+    order: 8
+    face: 2
+  - name: Eyebrows
+    texture: {fileID: 2800000, guid: 65317283a9d7b1d43769bc6e43e5d2a7, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    uvRect:
+      serializedVersion: 2
+      x: 0.7567783
+      y: 0.09888357
+      width: 0.22807017
+      height: 0.036682617
+    rect:
+      serializedVersion: 2
+      x: -0.43
+      y: 3.85
+      width: 0.86
+      height: 0.11
+    columns: 18
+    rows: 22
+    bones: 04000000
+    falloff: 2
+    topCenterExtension: 0
+    bottomCenterCutout: {x: 0, y: 0}
+    cheekSpread: 0
+    sideCutout: {x: 0, y: 0, z: 0}
+    order: 9
+    face: 0
+  - name: Mouth
+    texture: {fileID: 2800000, guid: 65317283a9d7b1d43769bc6e43e5d2a7, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    uvRect:
+      serializedVersion: 2
+      x: 0.53429025
+      y: 0.053429026
+      width: 0.16028708
+      height: 0.10526316
+    rect:
+      serializedVersion: 2
+      x: -0.12
+      y: 3.325
+      width: 0.24
+      height: 0.055
+    columns: 18
+    rows: 22
+    bones: 04000000
+    falloff: 2
+    topCenterExtension: 0
+    bottomCenterCutout: {x: 0, y: 0}
+    cheekSpread: 0
+    sideCutout: {x: 0, y: 0, z: 0}
+    order: 9
+    face: 3
+  - name: FrontHair
+    texture: {fileID: 2800000, guid: 65317283a9d7b1d43769bc6e43e5d2a7, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    uvRect:
+      serializedVersion: 2
+      x: 0.25279108
+      y: 0.7137161
+      width: 0.24720894
+      height: 0.2551834
+    rect:
+      serializedVersion: 2
+      x: -0.7
+      y: 3.05
+      width: 1.4
+      height: 1.35
+    columns: 18
+    rows: 22
+    bones: 0400000007000000
+    falloff: 2
+    topCenterExtension: 0
+    bottomCenterCutout: {x: 0, y: 0}
+    cheekSpread: 0
+    sideCutout: {x: 0, y: 0, z: 0}
+    order: 10
+    face: 0
+  - name: CheekLeft
+    texture: {fileID: 2800000, guid: 65317283a9d7b1d43769bc6e43e5d2a7, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    uvRect:
+      serializedVersion: 2
+      x: 0.019138755
+      y: 0.7400319
+      width: 0.034290273
+      height: 0.07496013
+    rect:
+      serializedVersion: 2
+      x: -0.64
+      y: 3.2409
+      width: 0.19244756
+      height: 0.37413493
+    columns: 18
+    rows: 22
+    bones: 04000000
+    falloff: 2
+    topCenterExtension: 0
+    bottomCenterCutout: {x: 0, y: 0}
+    cheekSpread: 0
+    sideCutout: {x: 0, y: 0, z: 0}
+    order: 9
+    face: 0
+  - name: CheekRight
+    texture: {fileID: 2800000, guid: 65317283a9d7b1d43769bc6e43e5d2a7, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    uvRect:
+      serializedVersion: 2
+      x: 0.21291865
+      y: 0.7400319
+      width: 0.034290273
+      height: 0.07496013
+    rect:
+      serializedVersion: 2
+      x: 0.44755244
+      y: 3.2409
+      width: 0.19244756
+      height: 0.37413493
+    columns: 18
+    rows: 22
+    bones: 04000000
+    falloff: 2
+    topCenterExtension: 0
+    bottomCenterCutout: {x: 0, y: 0}
+    cheekSpread: 0
+    sideCutout: {x: 0, y: 0, z: 0}
+    order: 9
+    face: 0

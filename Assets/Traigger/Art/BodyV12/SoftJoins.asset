@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &-8671914734215372449
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Traigger/UnlitAlpha_softJoin
+  m_Shader: {fileID: 4800000, guid: 133b732567966fa9c557e1e3bf7acbe5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 4bd68d44da0e744acb3c26ddf7837199, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _JoinMode: 0
+    - _JoinStrength: 0
+    - _SleeveSplit: 0
+    - _VertexAlpha: 1
+    - _Volume: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _JoinRect: {r: 0.7376302, g: 0.55078125, b: 0.111328125, a: 0.43359375}
+    - _LayerRect: {r: 0, g: 0, b: 1, a: 1}
+    - _SleeveDarkLimit: {r: 0.14, g: 0.26, b: 0.42, a: 0}
+    - _SleeveOpening: {r: 0, g: 0, b: 1, a: 0}
+    - _SleeveRadii: {r: 115, g: 26, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!21 &-8325094383952451624
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SleeveFront_Right_softJoin
+  m_Shader: {fileID: 4800000, guid: 133b732567966fa9c557e1e3bf7acbe5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: a2e2b5be658b941f08a28fc6e7128489, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _JoinMode: -1
+    - _JoinStrength: 1
+    - _SleeveSplit: -1
+    - _VertexAlpha: 1
+    - _Volume: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _JoinRect: {r: 0.7473958, g: 0.5449219, b: 0.18554688, a: 0.3310547}
+    - _LayerRect: {r: 0, g: 0, b: 1, a: 1}
+    - _SleeveDarkLimit: {r: 0.14, g: 0.26, b: 0.42, a: 0}
+    - _SleeveOpening: {r: 0.8697917, g: 0.61035156, b: 0.831, a: 0.556}
+    - _SleeveRadii: {r: 120, g: 28, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!21 &-5059068725066808407
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SleeveFront_Left_softJoin
+  m_Shader: {fileID: 4800000, guid: 133b732567966fa9c557e1e3bf7acbe5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: a2e2b5be658b941f08a28fc6e7128489, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _JoinMode: 1
+    - _JoinStrength: 1
+    - _SleeveSplit: -1
+    - _VertexAlpha: 1
+    - _Volume: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _JoinRect: {r: 0.06770833, g: 0.5449219, b: 0.18554688, a: 0.3310547}
+    - _LayerRect: {r: 0, g: 0, b: 1, a: 1}
+    - _SleeveDarkLimit: {r: 0.14, g: 0.26, b: 0.42, a: 0}
+    - _SleeveOpening: {r: 0.13020833, g: 0.61035156, b: 0.831, a: -0.556}
+    - _SleeveRadii: {r: 120, g: 28, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!21 &-2350646200526613576
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Traigger/UnlitAlpha_softJoin
+  m_Shader: {fileID: 4800000, guid: 133b732567966fa9c557e1e3bf7acbe5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 4bd68d44da0e744acb3c26ddf7837199, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _JoinMode: 0
+    - _JoinStrength: 0
+    - _SleeveSplit: 0
+    - _VertexAlpha: 1
+    - _Volume: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _JoinRect: {r: 0.13997395, g: 0.060546875, b: 0.111328125, a: 0.4375}
+    - _LayerRect: {r: 0, g: 0, b: 1, a: 1}
+    - _SleeveDarkLimit: {r: 0.14, g: 0.26, b: 0.42, a: 0}
+    - _SleeveOpening: {r: 0, g: 0, b: 1, a: 0}
+    - _SleeveRadii: {r: 115, g: 26, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b30fded5155ed2c90004bcb159209a72, type: 3}
+  m_Name: SoftJoins
+  m_EditorClassIdentifier: Assembly-CSharp::Traigger.RigDefinition
+  layerShader: {fileID: 0}
+  bones: []
+  layers: []
