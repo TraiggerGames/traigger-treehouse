@@ -31,6 +31,13 @@
 | Emisión | `TraiggerStream.swift` | Cliente RTMP propio, H.264 + AAC, mezcla de voz, película y capturadora |
 | Vision Pro | `Editor/VisionHost~/Sources` | Ventanas, espacios inmersivos, HDRI, Traigger libre, ventana para compartir |
 | Mac | `MacCamera` | Extensión CMIO, controlador de audio HAL, puente por cable (usbmuxd) |
+| Outfits | `Outfits.cs`, `StreamingAssets/Outfits` | Ropa por capas sobre el rig del personaje ([TRAJES.md](TRAJES.md)) |
+| Skins 3D | `Skin3DAvatar.cs`, `Resources/Skins3D`, `Tools/Skins3D` | Modelo 3D con esqueleto, formas de boca y parpadeo por textura ([PIELES_3D.md](PIELES_3D.md)) |
+| Pelo por mechones | `HairDetailRig.cs` | Mechones del flequillo con muelles, calibrables desde Ajustar → Pelo |
+| Cara remota | `TraiggerFaceRelay.swift`, `FaceReceiver.cs`, `MacCamera/App/FaceForwarder.swift` | Enviar la cara de un iPhone/iPad a otro aparato |
+| Receptor HDMI en iPad | `TraiggerMacReceiver.swift` | Recibe la capturadora del Mac o de otro iPhone |
+| iCloud | `StudioCloud.cs`, `TraiggerCloud.mm`, `VoiceProfileStore.cs` | Escenas, carteles, perfil de voz y archivos `icloud://` |
+| Explorador de archivos | `UI/TraiggerFileBrowser.swift`, `UI/TraiggerServers.swift` | Archivos, Fotos y servidores SMB con descubrimiento Bonjour |
 
 ## Reglas del proyecto
 
@@ -38,3 +45,5 @@
 - La interfaz es **SwiftUI nativa**; OnGUI solo existe dentro del editor de Unity para depurar.
 - Unity solo usa los módulos imprescindibles (sin física): ver `Packages/manifest.json`.
 - Todo el procesamiento de voz, cara y sonido es **en el dispositivo**.
+
+Puertos, servicios de red y órdenes del puente: [RED_Y_PROTOCOLOS.md](RED_Y_PROTOCOLOS.md).

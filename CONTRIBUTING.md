@@ -4,7 +4,8 @@
 
 ## Antes de empezar
 
-- Lee [docs/ARQUITECTURA.md](docs/ARQUITECTURA.md) y [docs/COMPILAR.md](docs/COMPILAR.md).
+- Lee [docs/ARQUITECTURA.md](docs/ARQUITECTURA.md), [docs/COMPILAR.md](docs/COMPILAR.md) y [docs/RED_Y_PROTOCOLOS.md](docs/RED_Y_PROTOCOLOS.md).
+- Instala las bibliotecas de terceros: `Tools/fetch_thirdparty.sh` ([docs/TERCEROS.md](docs/TERCEROS.md)).
 - Copia `signing.example` como `signing.local` con tus datos de firma de Apple (no se sube).
 
 ## Reglas del proyecto

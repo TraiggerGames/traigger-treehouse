@@ -60,6 +60,10 @@ Un personaje es una carpeta con sus piezas en PNG (cabeza, ojos, boca, pelo, bra
 
 Más detalle en [docs/ARQUITECTURA.md](docs/ARQUITECTURA.md).
 
+## Documentación
+
+Todo está en [`docs/`](docs/README.md): [guía de uso](docs/GUIA_DE_USO.md), [compilar](docs/COMPILAR.md), [bibliotecas de terceros](docs/TERCEROS.md), [personajes](docs/PAQUETES_DE_PERSONAJE.md), [outfits](docs/TRAJES.md), [skins 3D](docs/PIELES_3D.md), [arquitectura](docs/ARQUITECTURA.md), [red y protocolos](docs/RED_Y_PROTOCOLOS.md) y [solución de problemas](docs/SOLUCION_DE_PROBLEMAS.md).
+
 ## Colaborar
 
 Ideas, errores, traducciones y personajes nuevos son bienvenidos: lee [CONTRIBUTING.md](CONTRIBUTING.md).

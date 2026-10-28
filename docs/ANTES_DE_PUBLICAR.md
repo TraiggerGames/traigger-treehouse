@@ -29,7 +29,7 @@ Lista de lo que queda por decidir o hacer antes de que el repositorio sea públi
 - [x] README, guía de paquetes de personaje, compilación, arquitectura, terceros y cómo colaborar.
 - [x] Paquete de ejemplo en `Examples/Traigger` (y `Traigger.traigger`).
 - [ ] Capturas o un vídeo corto para el README.
-- [ ] Plantillas de *issues* y de *pull requests* (`.github/`).
+- [x] Plantillas de *issues* y de *pull requests* (`.github/`).
 
 ## Pendiente de confirmar
 
